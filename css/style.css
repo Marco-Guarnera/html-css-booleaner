@@ -23,6 +23,11 @@ h1 {
     margin-bottom: 0;
 }
 
+h4 {
+    color: #FFF;
+    margin: 0;
+}
+
 table {
     border-collapse: collapse;
 }
@@ -44,6 +49,25 @@ ul {
     margin-top: 25px;
 }
 
+#x-article {
+    background-image: url(../img/img03.jpg);
+}
+
+#y-article {
+    background-image: url(../img/img04.jpg);
+}
+
+/* Class */
+.article {
+    height: 150px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
 /* Utilities */
 .container {
     background-color: #FFF;
@@ -56,7 +80,7 @@ ul {
 }
 
 .text-grey {
-    color: #8C8C8C;
+    color: #808080;
 }
 
 .text-small {
