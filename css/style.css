@@ -1,16 +1,77 @@
+/* Generics */
 body {
+    background-color: #FFF;
     margin: 0;
 }
 
-header {
-    height: 75px;
-    background-color: rgb(78, 160, 255);
-    background-image: url("../img/pattern.png");
-    background-size: 250px;
-    background-repeat: repeat-x;
+a {
+    color: #4FBBE9;
+    text-decoration: none;
 }
 
+address {
+    font-size: 18px;
+    font-style: normal;
+    margin-bottom: 25px;
+}
+
+figure {
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background: #20A9E5;
+    color: #FFF;
+    text-align: left;
+}
+
+ul {
+    list-style-position: inside;
+    padding: 0;
+}
+
+/* ID */
 #logo {
-    height: 50%;
-    padding: 25px 0;
+    height: 50px;
+    margin-top: 25px;
+}
+
+/* Utilities */
+.container {
+    background-color: #FFF;
+    margin: 0 auto;
+    max-width: 1080px;
+}
+
+.bgc-crystal-river {
+    background-color: #B1E5F2;
+}
+
+.text-grey {
+    color: #8C8C8C;
+}
+
+.text-small {
+    font-size: 12px;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+/* Header */
+header {
+    height: 100px;
+    background-color: #4EA0FF;
+    background-image: url("../img/pattern.png");
+    background-size: 325px;
+    background-repeat: repeat-x;
 }
